@@ -1,0 +1,10 @@
+.width-100-percent {
+  width: 100%;
+}
+.invalide-form {
+  border-color: #dc3545;
+}
+
+.invalide-form .rbt-input-main {
+  border-color: #dc3545;
+}

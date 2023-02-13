@@ -1,0 +1,41 @@
+.search-result-detail-component {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 20px;
+}
+
+.search-result-detail-component .form-label {
+  margin: 0;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.kilo-box-component {
+  position: relative;
+  height: 50px;
+  width: 1px;
+  border-left: 1px solid grey;
+  margin-left: 3px;
+}
+
+.kilo-box-component:before {
+  content: ' ';
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 3.5px;
+  background-color: gray;
+  top: 0;
+  left: -4px;
+}
+
+.kilo-box-component:after {
+  content: ' ';
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 3.5px;
+  background-color: gray;
+  top: 100%;
+  left: -4px;
+}
